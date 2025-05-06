@@ -1,0 +1,168 @@
+{
+    "aws.suppressPrompts": {
+        "fileViewerEdit": true
+    },
+    "aws.telemetry": false,
+    "breadcrumbs.enabled": false,
+    "custom-ui-style.electron": {
+        "frame": false,
+        "titleBarStyle": "hiddenInset"
+    },
+    "custom-ui-style.font.sansSerif": "Consolas, 'Courier New', monospace",
+    "custom-ui-style.stylesheet": {
+        ".title-actions": "display: none !important;",
+        ".sidebar": "border: none !important;",
+        ".monaco-workbench .monaco-list:not(element-focused):focud:before": "outline: none !important;",
+        ".monaco-list-row.focused": "outline: none !important;",
+        ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center !important;"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.cursorSurroundingLines": 999,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.fontWeight": "normal",
+    "editor.guides.indentation": false,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "editor.rulers": [80],
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.overviewRulerBorder": false,
+    "editor.stickyScroll.enabled": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "comment.block.documentation"
+                ],
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            }
+        ]
+    },
+    "explorer.compactFolders": false,
+    "explorer.decorations.badges": false,
+    "extensions.ignoreRecommendations": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "git.autofetch": true,
+    "github.copilot.enable": {
+        "csharp": true,
+        "markdown": true,
+        "python": true,
+        "rust": true
+    },
+    "mssql.enableRichExperiences": true,
+    "mssql.objectExplorer.groupBySchema": false,
+    "pylint.importStrategy": "fromEnvironment",
+    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "vim.easymotion": true,
+    "vim.foldfix": true,
+    "vim.handleKeys": {
+        "<C-A-b>": false,
+        "<C-b>": false,
+        "<C-d>": true,
+        "<C-p>": false,
+        "<C-s>": false,
+        "<C-z>": false
+    },
+    "vim.leader": " ",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["n", "e"],
+            "commands": ["editor.action.marker.next"]
+        },
+        {
+            "before": ["p", "e"],
+            "commands": ["editor.action.marker.prev"]
+        },
+        {
+            "before": ["<leader>", "["],
+            "commands": ["editor.fold"]
+        },
+        {
+            "before": ["<leader>", "["],
+            "commands": ["editor.fold"]
+        },
+        {
+            "before": ["<leader>", "]"],
+            "commands": ["editor.unfold"]
+        },
+        {
+            "before": [":"],
+            "commands": ["vim.showQuickpickCmdLine"]
+        },
+        {
+            "before": [ "<leader>", "s", "f" ],
+            "commands": [ "workbench.action.quickOpen" ]
+        },
+        {
+            "before": [ "<leader>", "s", "g" ],
+            "commands": [ "workbench.action.findInFiles" ]
+        },
+        {
+            "before": [ "<leader>", "e" ],
+            "commands": [ "workbench.action.toggleSidebarVisibility" ]
+        },
+        {
+            "before": [ "p", "d" ],
+            "commands": [ "editor.action.peekDefinition" ]
+        },
+        {
+            "before": [ "h", "d" ],
+            "commands": [ "editor.action.showDefinitionPreviewHover" ]
+        },
+        {
+            "before": [ "g", "i" ],
+            "commands": [ "editor.action.goToImplementation" ]
+        },
+        {
+            "before": [ "g", "p", "i" ],
+            "commands": [ "editor.action.peekImplementation" ]
+        },
+        {
+            "before": [ "g", "q" ],
+            "commands": [ "editor.action.quickFix" ]
+        },
+        {
+            "before": [ "g", "r" ],
+            "commands": [ "editor.action.referenceSearch.trigger" ]
+        },
+        {
+            "before": [ "g", "t" ],
+            "commands": [ "editor.action.goToTypeDefinition" ]
+        },
+        {
+            "before": [ "g", "p", "t" ],
+            "commands": [ "editor.action.peekTypeDefinition" ]
+        }
+    ],
+    "vim.vimrc.enable": true,
+    "vim.smartRelativeLine": true,
+    "editor.lineHeight": 1.6,
+    "window.customTitleBarVisibility": "never",
+    "window.titleBarStyle": "native",
+    "window.zoomLevel": 1.5,
+    "workbench.activityBar.location": "hidden",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.editor.showTabs": "single",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": false,
+    "workbench.tips.enabled": false,
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.colorCustomizations": {
+        "editorCursor.background": "#000000"
+    }
+}
